@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section#app{
+    max-width: 1200px;
+    margin: auto;
+    background-color: bisque;
+    min-height: 500px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+section#app div img {
+    display: block;
+}
+
+.mod-golge {
+    box-shadow: 0px 1px 0px 7px #e91e63;
+}
+
+div#liste-elemani {
+    position: fixed;
+    background-color: bisque;
+    width: 200px;
+    min-height: 300px;
+    right: 1rem;
+    top:1rem;
+}
+
+button#durdurma-elemani {
+    position: fixed;
+    padding: 1rem;
+    left: 1rem;
+    top:1rem;
+}
